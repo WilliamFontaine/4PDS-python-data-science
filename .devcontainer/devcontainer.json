@@ -1,0 +1,29 @@
+{
+  "name": "pandas",
+  "image": "python:3.12.2",
+  "postCreateCommand": "pip install pandas ipykernel && python -m ipykernel install --user --name=myenv",
+  "customizations": {
+    "vscode": {
+      "colorTheme": "SynthWave '84",
+      "fiel-icons.activeIconPack": "material-icon-theme",
+      "material-icon-theme.folders.color": "#880088",
+      "settings": {
+        "editor.formatOnSave": true,
+        "files.insertFinalNewline": true,
+        "editor.action.commentLine": "ctrl+[Period]"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "ms-toolsai.jupyter",
+        "github.copilot",
+        "robbowen.synthwave-vscode",
+        "kevinrose.vsc-python-indent",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-toolsai.jupyter-renderers",
+        "pkief.material-icon-theme"
+      ]
+    }
+  }
+}
