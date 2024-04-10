@@ -1,7 +1,7 @@
 {
   "name": "pandas",
   "image": "python:3.12.2",
-  "postCreateCommand": "pip install pandas ipykernel && python -m ipykernel install --user --name=myenv",
+  "postCreateCommand": "pip install pandas ipykernel matplotlib seaborn && python -m ipykernel install --user --name=myenv",
   "customizations": {
     "vscode": {
       "colorTheme": "SynthWave '84",
